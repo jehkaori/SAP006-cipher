@@ -1,1 +1,35 @@
-/* css */
+body{
+    background-color: #cccccc;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+em{
+    font-size: small;
+    padding-top: 0px;
+}
+
+#container{
+    display:flex;
+    justify-content: space-between;
+    height:auto;
+}
+
+#Criptografar{
+    width:45%;
+    background-color: rgba(128, 128, 128, 0.787);
+    border-radius: 10px;
+}
