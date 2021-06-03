@@ -1,16 +1,19 @@
 body{
-    background-color: #cccccc;
+    background-color: rgba(18,21,40); 
     font-family: Helvetica, sans-serif;
+    color: white;
 }
 
 header{
+    background: rgba(123,54,135);
     text-align: center;
+    padding: 30px;
+    padding-bottom: 2px;
 }
 
 main{
     width: 80%;
     margin: auto;
-
 }
 
 h3{
@@ -19,17 +22,53 @@ h3{
 
 em{
     font-size: small;
-    padding-top: 0px;
+}
+
+h4{
+    text-align: center;
 }
 
 #container{
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    height:auto;
 }
 
 #Criptografar{
     width:45%;
-    background-color: rgba(128, 128, 128, 0.787);
+    background-color: rgba(84,98,163);
     border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+#Descriptografar{
+    width:45%;
+    background-color: rgba(84,98,163);
+    border-radius: 10px;
+}
+
+button{
+    background-color:rgba(39,164,134);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Noto Sans, sans-serif;
+    margin: auto;
+    color: white;
+
+}
+
+text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#txt{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+#subTitulo{
+    padding-top: 0px;
 }
