@@ -12,8 +12,8 @@
         <h3 id="subTitulo">Criptografe a sua mensagem aqui</h3>
         <br>
 
-        <label><strong>Escolha a quantidade de casas deslocamento</strong>></label>
-        <select name="Deslocamento">
+        <label><strong>Escolha a quantidade de casas deslocamento</strong></label>
+        <select id="desloc" name="Deslocamento">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -26,22 +26,22 @@
             <option value="10">10</option>
           </select> 
         
-        <div id="container">
-            <label for="escrever mensagem"><h5>Texto</h5></label>
-                <textarea id="txt" name="texto"
-                rows="15" cols="80" maxlength="1000"></textarea>
-            <label for="escrever mensagem"><h5>Texto encriptado</h5></label>
-                  <textarea id="txt" name="encriptado"
-                rows="15" cols="80" maxlength="1000" readonly></textarea>
-            </div>
+        <div class="container">
+          <label for="escrever mensagem"><h5>Texto</h5></label>
+            <textarea id="txtoriginal" name="texto"
+            rows="15" cols="80" maxlength="1000"></textarea>
+          <label for="escrever mensagem"><h5>Texto encriptado</h5></label>
+            <textarea id="txtencriptado" name="encriptado"
+            rows="15" cols="80" maxlength="1000" readonly></textarea>
+        </div>
 
-        <div id="container">
+        <div class="container">
             <button id="Encriptar">Encriptar mensagem</button>
             <button id="Menu">Menu Inicial</button>
         </div>
     </main> 
     
   </div>
-  <script src="index.js" type="module"></script>
+  <script src="cipher.js" type="module"></script>
 </body>
 </html>
