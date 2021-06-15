@@ -46,3 +46,4 @@ const cipher = {
     return result
   }
 }
+export default cipher
