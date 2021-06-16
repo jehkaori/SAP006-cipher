@@ -33,6 +33,10 @@ h4{
     justify-content: space-between;
 }
 
+.btn{
+    text-align: center;
+}
+
 #Criptografar{
     width:45%;
     background-color: rgba(84,98,163);

@@ -1,7 +1,7 @@
 const cipher = {
-  encode: function (string, offset){
+  encode: function encode(offset, string){
     offset = parseInt(offset, 10)
-    let result = "", message
+    let result = "", message 
    
       for (let i=0; i<string.length; i++){
         if(string.charCodeAt(i)>=65 && string.charCodeAt(i)<=90){
@@ -18,11 +18,12 @@ const cipher = {
         }
         else {
           result = "Escreva" 
+        
         }
       }
       return result
   },
-  decode: function (string, offset){
+  decode: function decode(offset, string){
     offset = parseInt(offset, 10)
     let result = "", message
     
