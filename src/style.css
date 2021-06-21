@@ -6,16 +6,15 @@ body{
 
 header{
     background: rgb(37, 42, 72);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(img/bokeh-lights-effect-dark-background.jpg);
     text-align: center;
     padding: 30px;
     padding-bottom: 2px;
 }
 
 img{
-    max-width:200px;
-    max-height:150px;
+    max-width:300px;
+    max-height:250px;
     width: auto;
     height: auto;
 }
@@ -87,6 +86,14 @@ textarea{
     margin-top: 20px;
 }
 .botao{
+    background-color:rgba(255,114,113);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Noto Sans, sans-serif;
+    color: white;
+}
+
+#btn{
     background-color:rgba(255,114,113);
     padding: 10px;
     border-radius: 10px;

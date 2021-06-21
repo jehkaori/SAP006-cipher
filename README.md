@@ -26,7 +26,7 @@ Para CRIPTOGRAFAR a mensagem
 <li>Escreva a sua mensagem no campo indicado;</li>
 <li>Clique no botão "Criptografar" e ao lado irá aparecer a mensagem criptografada;</li>
 <li>Copie a mensagem e cole onde desejar (e-mail, sms, redes sociais...)e envie.</li>
-
+<br>
 Para DESCRIPTOGRAFAR a mensagem
 <li>Clique no botão "Iniciar";</li>
 <li>Escolha a quantidade de casas deslocadas que foram utilizadas para criptografar a mensagem<br>(Entre 1 - 10);</li>
