@@ -14,7 +14,10 @@ function encrip(){
   msgcriptada.value = cipher.encode(offset, string);
 }
 
-botaoEncriptar.addEventListener ("click", encrip);
+botaoEncriptar.addEventListener ("click", encrip)
+botaoEncriptar.onclick = function alerta (){
+  alert("Não esqueça de enviar o deslocamento que foi utilizado para criptografar a mensagem juntamente com a mensagem criptogarafada. Pois ele é necessário para fazer a descriptografia da mensagem, caso contrário a mensagem não será descriptografada da menira correta.")
+};
 
 
 function decrip (){

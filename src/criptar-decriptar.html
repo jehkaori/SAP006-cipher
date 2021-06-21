@@ -20,10 +20,10 @@
         </form>
       </div>
     
-        <h3 id="subTitulo">Criptografe a sua mensagem aqui</h3>
+        <h3 id="subTitulo">Criptografe e descriptografe a mensagem aqui</h3>
         <br>
          
-          <label><strong>Escolha a quantidade de casas deslocamento</strong></label>
+          <label id="csdeslocamento"><strong>Escolha a quantidade de casas deslocamento</strong></label>
           <select id="desloc" name="Deslocamento">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -36,19 +36,24 @@
             <option value="9">9</option>
             <option value="10">10</option>
           </select>
-          
+          <br>
+          <em id="atencao">
+            <strong>ATENÇÃO:</strong>Não utilize "ç" nem "Ç", pois o programa não
+            irá reconhecer esse caracter e sua mensagem não será decodificada.
+          </em>
+
           <div class="container">
-            <label for="escrevermensagem"><h5>Texto</h5></label>
+            <label for="escrevermensagem" class="txt"><h5> Texto Original </h5></label><br>
               <textarea id="txtoriginal" name="texto"
               rows="15" cols="80" maxlength="1000" placeholder="Escreva seu texto"></textarea>
-            <label for="escrevermensagem"><h5>Texto</h5></label>
+            <label for="escrevermensagem" class="txt"><h5> Texto Encriptado </h5></label><br>
               <textarea id="txtcodificado" name="encriptado"
               rows="15" cols="80" maxlength="1000" placeholder="Cole seu texto criptografado"></textarea>
           </div>
   
-          <div class="container">
-            <button id="encriptar">Encriptar mensagem</button>
-            <button id="decriptar">Dencriptar mensagem</button>
+          <div id="conteudo">
+            <button id="encriptar">Criptografar mensagem</button>
+            <button id="decriptar">Dencriptografar mensagem</button>
           </div>
     </main> 
     
