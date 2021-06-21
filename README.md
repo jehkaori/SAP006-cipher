@@ -12,7 +12,7 @@
 
 ## 1. Sobre o yourCode
 
-Esse site foi criado coma inteção de criar mensagens secretas de uma  forma segura através das cifras de César, que consiste basiscamente usar o alfabeto normal e adicionar um deslocamento para que a ordem das letras mude. Dessa forma criamos a criptografia de frases, textos, senhas, mensagens e tudo mais; porém não é possível utilizar "ç" ou "Ç" no momento.  
+Esse site foi criado coma inteção de criar mensagens secretas de uma  forma segura através das cifras de César, que consiste basiscamente usar o alfabeto normal e adicionar um deslocamento para que a ordem das letras mude. Dessa forma criamos a criptografia de frases, textos, senhas, mensagens e tudo mais.
 
 ## 2. Para qual tipo de pessoa se destina esse produto
 
