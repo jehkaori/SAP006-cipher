@@ -1,0 +1,130 @@
+body{
+    background-color: rgba(17,17,17); 
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+header{
+    background: rgb(37, 42, 72);
+    background-image: url(img/bokeh-lights-effect-dark-background.jpg);
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 2px;
+}
+
+img{
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    margin-bottom: 20px;
+}
+
+em{
+    font-size: small;
+}
+h4{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#subTitulo{
+    font-size: xx-large;
+}
+
+#csdeslocamento{
+    font-size: 18pt;
+    padding-bottom: 40px;
+}
+
+#atencao{
+    color: red;
+    font-size: 11pt;
+    line-height: 50px;
+}
+
+.txt{
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 20pt;
+}
+
+textarea{
+    resize: none;
+}
+
+#Criptografar{
+    width:45%;
+    background-color: rgba(133,90,255);
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+#Descriptografar{
+    width:45%;
+    background-color: rgba(133,90,255);
+    border-radius: 10px;
+}
+
+#primeiro{
+    text-align: center;
+}
+#segundo{
+    text-align: right;
+    margin-top: 20px;
+}
+.botao{
+    background-color:rgba(255,114,113);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Noto Sans, sans-serif;
+    color: white;
+}
+
+#btn{
+    background-color:rgba(255,114,113);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Noto Sans, sans-serif;
+    color: white;
+}
+
+button{
+    background-color:rgba(90, 197, 254, 0.705);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Noto Sans, sans-serif;
+    margin: auto;
+    color: white;
+}
+
+text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+textarea{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 8px;
+}
+
+#conteudo{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}

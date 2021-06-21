@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>yourCode - Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="root">
+    <header>
+      <img src="img/yourCODE-BRANCO-esc-log_.png">
+    </header>
+    <main>
+      <h2>Bem vindo ao yourCode!!</h2>
+        <h3>Aqui você poderá criar suas próprias mensagens criptografadas, através das <i>Cifras de César*</i> 
+          de uma maneira muito simples e fácil.</h3>
+          <em>* Cifras de César é uma das técnicas mais simples de cifrar uma mensagem. 
+            É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra, 
+            que se encontra a um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.</em>
+      
+        <ul id="Exemplo"><h3> Exemplo se usarmos o deslocamento de 3 posições:</h3>
+          <li>Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z;</li>
+          <li> Alfabeto com cifra: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C;</li>
+          <li>A letra A será D;</li>
+          <li>A palavra CASA será FDVD.</li>
+        </ul>
+
+      <h4> Siga os passos abaixo</h4>
+      
+        <div class="container">
+          <ol id="Criptografar"><h4>Para CRIPTOGRAFAR a mensagem</h4>
+            <li>Clique no botão "Iniciar";</li>
+            <li>Escolha quantas casas de deslocamento você deseja;<br>(Entre 1 - 10);</li>
+            <li>Escreva a sua mensagem no campo indicado;</li>
+            <li>Clique no botão "Criptografar" e ao lado irá aparecer a mensagem criptografada;</li>
+            <li>Copie a mensagem e cole onde desejar (e-mail, sms, redes sociais...) e envie.</li>
+          </ol>
+          <ol id="Descriptografar"><h4>Para DESCRIPTOGRAFAR a mensagem</h4>
+            <li>Clique no botão "Iniciar";</li>
+            <li>Escolha a quantidade de casas deslocadas que foram utilizadas para criptografar a mensagem<br>(Entre 1 - 10);</li>
+            <li>Cole a sua mensagem criptografada;</li>
+            <li>Clique em descriptografar para ler a mensagem original;</li>
+            <li>Para responder clique no botão "Página inicial", para ler como criptografar uma mensagem.</li>
+          </ol>
+        </div>
+
+      <div id ="primeiro">
+        <form action="criptar-decriptar.html">
+         <input class="botao" type="submit" value ="Iniciar">
+        </form>
+      </div>
+
+    </main> 
+    
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+</html>
