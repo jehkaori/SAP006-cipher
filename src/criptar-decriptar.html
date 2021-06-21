@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>yourCode - Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="root">
+    <header>
+      <img src="img/Logo-Your-Code---001.png">
+      <h1>yourCode</h1>
+    </header>
+    
+    <main>
+
+      <div id="segundo">
+        <form action="index.html">
+          <input class="botao" type="submit" value ="Página inicial">
+        </form>
+      </div>
+    
+        <h3 id="subTitulo">Criptografe a sua mensagem aqui</h3>
+        <br>
+         
+          <label><strong>Escolha a quantidade de casas deslocamento</strong></label>
+          <select id="desloc" name="Deslocamento">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          
+          <div class="container">
+            <label for="escrevermensagem"><h5>Texto</h5></label>
+              <textarea id="txtoriginal" name="texto"
+              rows="15" cols="80" maxlength="1000" placeholder="Escreva seu texto"></textarea>
+            <label for="escrevermensagem"><h5>Texto</h5></label>
+              <textarea id="txtcodificado" name="encriptado"
+              rows="15" cols="80" maxlength="1000" placeholder="Cole seu texto criptografado"></textarea>
+          </div>
+  
+          <div class="container">
+            <button id="encriptar">Encriptar mensagem</button>
+            <button id="decriptar">Dencriptar mensagem</button>
+          </div>
+    </main> 
+    
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+</html>

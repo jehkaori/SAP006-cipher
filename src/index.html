@@ -7,14 +7,17 @@
 </head>
 <body>
   <div id="root">
-    <header><h1>yourCode</h1></header>
+    <header>
+      <img src="img/Logo-Your-Code---001.png">
+      <h1>yourCode</h1>
+    </header>
     <main>
       <h2>Bem vindo ao yourCode!!</h2>
-      <h3>Aqui você poderá criar suas próprias mensagens criptografadas, através das <i>Cifras de César*</i> 
-        de uma maneira muito simples e fácil.</h3>
-        <em>* Cifras de César é uma das técnicas mais simples de cifrar uma mensagem. 
-          É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra, 
-          que se encontra a um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.</em>
+        <h3>Aqui você poderá criar suas próprias mensagens criptografadas, através das <i>Cifras de César*</i> 
+          de uma maneira muito simples e fácil.</h3>
+          <i>* Cifras de César é uma das técnicas mais simples de cifrar uma mensagem. 
+            É um tipo de cifra por substituição, em que cada letra do texto original é substituida por outra, 
+            que se encontra a um número fixo de posições (deslocamento) mais a frente do mesmo alfabeto.</i>
       
         <ul id="Exemplo"><h3> Exemplo se usarmos o deslocamento de 3 posições:</h3>
           <li>Alfabeto sem cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z;</li>
@@ -25,79 +28,28 @@
 
       <h4> Siga os passos abaixo</h4>
       
-      <div class="container">
-        <ol id="Criptografar"><h4>Para CRIPTOGRAFAR a mensagem</h4>
-          <li>Clique no botão "Criar mensagem";</li>
-          <li>Escreva a sua mensagem;</li>
-          <li>Escolha quantas casas de deslocamento você deseja<br>(Entre 1 - 10);</li>
-          <li>Clique no botão "Criptografar" e ao lado irá aparecer a mensagem criptografada;</li>
-          <li> Aparecerá uma senha que você deve grava-la, e passa-la para a pessoa que lerá a sua mensagem.</li>
-        </ol>
-        <ol id="Descriptografar"><h4>Para DESCRIPTOGRAFAR a mensagem</h4>
-          <li> Clique no botão "Descriptografar";</li>
-          <li> Coloque a senha;</li>
-          <li> Irá aparecer a mensagem criptografada;</li>
-          <li> Clique em descriptografar para ler a mensagem original;</li>
-          <li> Para responder clique no botão.</li>
-        </ol>
+        <div class="container">
+          <ol id="Criptografar"><h4>Para CRIPTOGRAFAR a mensagem</h4>
+            <li>Clique no botão "Iniciar";</li>
+            <li>Escolha quantas casas de deslocamento você deseja;<br>(Entre 1 - 10);</li>
+            <li>Escreva a sua mensagem no campo indicado;</li>
+            <li>Clique no botão "Criptografar" e ao lado irá aparecer a mensagem criptografada;</li>
+            <li>Copie a mensagem e cole onde desejar (e-mail, sms, redes sociais...) e envie.</li>
+          </ol>
+          <ol id="Descriptografar"><h4>Para DESCRIPTOGRAFAR a mensagem</h4>
+            <li>Clique no botão "Iniciar";</li>
+            <li>Escolha a quantidade de casas deslocadas que foram utilizadas para criptografar a mensagem<br>(Entre 1 - 10);</li>
+            <li>Cole a sua mensagem criptografada;</li>
+            <li>Clique em descriptografar para ler a mensagem original;</li>
+            <li>Para responder clique no botão "Página inicial", para ler como criptografar uma mensagem.</li>
+          </ol>
+        </div>
+
+      <div id ="primeiro">
+        <form action="criptar-decriptar.html">
+         <input class="botao" type="submit" value ="Iniciar">
+        </form>
       </div>
-
-      <div class="container">
-       <form action="index2.html">
-         <input class="btn" type="submit" value ="Iniciar">
-       </form> 
-       <form action="index3.html">
-         <input class="btn" type="submit" value="Ler mensagem">
-       </form>
-      </div>
-    
-      <h3 id="subTitulo">Criptografe a sua mensagem aqui</h3>
-      <br>
-
-        <label><strong>Escolha a quantidade de casas deslocamento</strong></label>
-        <!--<select id="desloc" name="Deslocamento">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select> -->
-        <input type="number" id="desloc">
-        
-        <div class="container">
-          <label for="escrevermensagem"><h5>Texto</h5></label>
-            <textarea id="txtoriginal" name="texto"
-            rows="15" cols="80" maxlength="1000"></textarea>
-          <label for="escrevermensagem"><h5>Texto</h5></label>
-            <textarea id="txt" name="encriptado"
-            rows="15" cols="80" maxlength="1000"></textarea>
-        </div>
-
-        <div class="container">
-          <button id="encriptar">Encriptar mensagem</button>
-          <button id="pagina">Página Inicial</button>
-        </div>
-
-        <h3 id="tela2">Descriptografe a sua mensagem aqui</h3>
-        
-        <div class="container">
-        <label for="escrever mensagem"><h5>Texto encriptado</h5></label>
-          <textarea id="txt1" name="encrip"
-          rows="15" cols="80" maxlength="1000" ></textarea>
-        <label for="escrever mensagem"><h5>Texto descriptado</h5></label>
-          <textarea id="txt2" name="decrip"
-          rows="15" cols="80" maxlength="1000" ></textarea>
-        </div>
-
-        <div class="container">
-          <button id="decriptar">Dencriptar mensagem</button>
-          <button id="menu">Menu Inicial</button>
-        </div>
 
     </main> 
     
